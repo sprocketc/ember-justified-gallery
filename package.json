@@ -40,7 +40,9 @@
   "keywords": [
     "ember-addon",
     "justified-gallery",
-    "gallery"
+    "dynamic-gallery",
+    "gallery",
+    "justified"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5",
