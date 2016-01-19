@@ -72,11 +72,6 @@ export default Ember.Component.extend({
     Decide the margins between the images
    */
   margins: 1,
-  _marginsChanged: Ember.observer('margins', function() {
-    this.$().justifiedGallery({
-      margins: this.get('margins')
-    });
-  }),
 
   /**
     Decide the border size of the gallery. With a negative value the border will
