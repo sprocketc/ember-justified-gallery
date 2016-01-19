@@ -1,4 +1,4 @@
-# Ember-justified-gallery
+# Ember-justified-gallery [![Build Status](https://travis-ci.org/sprocketc/ember-justified-gallery.svg?branch=master)](https://travis-ci.org/sprocketc/ember-justified-gallery)
 
 This addon implements the [justified-gallery](https://miromannino.github.io/Justified-Gallery/) jquery plugin for ember.
 
