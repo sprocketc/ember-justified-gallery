@@ -1,12 +1,63 @@
 # Ember-justified-gallery
 
-This README outlines the details of collaborating on this Ember addon.
+This addon implements the [justified-gallery](https://miromannino.github.io/Justified-Gallery/) jquery plugin for ember.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `ember install ember-justified-gallery`
+
+## Usage
+
+Just wrap the gallery you want with the `justified-gallery` component.
+
+```handlebars
+{{#justified-gallery}}
+  {{#each images as |image|}}
+    <a href="{{image.src}}">
+      <img src="{{image.thumb}}" alt="{{image.title}}">
+    </a>
+  {{/each}}
+{{/justified-gallery}}
+```
+For more information about the supported formats of the gallery check the [input-formats documentation](https://miromannino.github.io/Justified-Gallery/input-formats/) of the jquery plugin.
+
+## Options
+
+Pass the options you want to the component
+
+```handlebars
+{{#justified-gallery captions=false}}
+  ...
+{{/justified-gallery}}
+```
+The `justified-gallery` component supports all the available options of the jquery plugin.
+For more info check the [options-and-events documentation](https://miromannino.github.io/Justified-Gallery/options-and-events/).
+
+## Events
+
+The addon supports the onComplete event of the jquery plugin. Set the function or the action you want to execute after the gallery initialization.
+
+```handlebars
+{{#justified-gallery onComplete=testFunction}}
+  ...
+{{/justified-gallery}}
+```
+
+```handlebars
+{{#justified-gallery onComplete='testAction'}}
+  ...
+{{/justified-gallery}}
+```
+## Observer
+
+To auto update the gallery when new images are added without reseting the component, set the `watch` option to the object you want to be observed by the component.
+
+```handlebars
+{{#justified-gallery watch=myObject}}
+  ...
+{{/justified-gallery}}
+```
+Whenever the object changes, the `norewind` command of the jquery plugin will be executed and only the newest images will be justified.
 
 ## Running
 

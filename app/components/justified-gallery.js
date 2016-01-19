@@ -1,0 +1,1 @@
+export { default } from 'ember-justified-gallery/components/justified-gallery';
