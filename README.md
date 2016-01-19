@@ -1,6 +1,6 @@
 # Ember-justified-gallery [![Build Status](https://travis-ci.org/sprocketc/ember-justified-gallery.svg?branch=master)](https://travis-ci.org/sprocketc/ember-justified-gallery) [![Code Climate](https://codeclimate.com/github/sprocketc/ember-justified-gallery/badges/gpa.svg)](https://codeclimate.com/github/sprocketc/ember-justified-gallery)
 
-This addon implements the [justified-gallery](https://miromannino.github.io/Justified-Gallery/) jquery plugin for ember.
+This addon integrates the [justified-gallery](https://miromannino.github.io/Justified-Gallery/) jquery plugin.
 
 ## Installation
 
