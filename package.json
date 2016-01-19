@@ -1,6 +1,6 @@
 {
   "name": "ember-justified-gallery",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "A Justified-Gallery component for ember-cli.",
   "directories": {
     "doc": "doc",
