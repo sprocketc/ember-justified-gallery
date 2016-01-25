@@ -34,6 +34,8 @@ Pass the options you want to the component
 The `justified-gallery` component supports all the available options of the jquery plugin.
 For more info check the [options-and-events documentation](https://miromannino.github.io/Justified-Gallery/options-and-events/).
 
+Every option is observable and can be changed after the initialization.
+
 ## Events
 
 The addon supports the onComplete event of the jquery plugin. Set the function or the action you want to execute after the gallery initialization.
